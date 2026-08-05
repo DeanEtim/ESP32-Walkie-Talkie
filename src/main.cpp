@@ -42,7 +42,7 @@
 #define BUFFER_SIZE 1024  // Chunk size (bytes) used when reading/writing audio
 
 // Maximum recording length. 4s
-#define MAX_RECORD_SECONDS 2
+#define MAX_RECORD_SECONDS 4
 #define RECORD_BUFFER_BYTES (SAMPLE_RATE * 2 * MAX_RECORD_SECONDS)
 
 // This shift controls the microphone gain: smaller number = louder. 14 is a good starting point.
