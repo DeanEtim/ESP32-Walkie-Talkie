@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 // Push-To-Talk Button
-constexpr uint8_t PTT_BUTTON_PIN = 2;
+constexpr uint8_t PTT_BUTTON_PIN = 21;
 
 // Initialize the button
 void buttonInit();
